@@ -1,35 +1,35 @@
 # Student Management Spring Boot Application
 
 ## Overview
-This project is a Spring Boot application designed to manage student information. It provides RESTful endpoints to perform CRUD operations and various queries on student data. 
+This project is a Spring Boot application designed to manage student information. It provides RESTful endpoints to perform CRUD operations and various queries on student data.
 
 ## Technologies Used
-- Spring Boot
-- Spring Data JPA
-- Hibernate
-- Lombok
-- H2 Database (or any preferred database)
-- Jakarta Persistence API
+- **Spring Boot**
+- **Spring Data JPA**
+- **Hibernate**
+- **Lombok**
+- **H2 Database** (or any preferred database)
+- **Jakarta Persistence API**
 
 ## Project Structure
 
-### 1. `com.qsp.student_springboot.dto`
-Contains the `Student` class which is annotated with JPA annotations to map it to the database.
+### `com.qsp.student_springboot.dto`
+Contains the `Student` class annotated with JPA annotations to map it to the database.
 
-### 2. `com.qsp.student_springboot.response`
-Contains the `ResponseStructure` class which is used to structure the responses of the API.
+### `com.qsp.student_springboot.response`
+Contains the `ResponseStructure` class used to structure API responses.
 
-### 3. `com.qsp.student_springboot.controller`
-Contains the `StudentController` class which defines the RESTful endpoints for managing students.
+### `com.qsp.student_springboot.controller`
+Contains the `StudentController` class defining RESTful endpoints for managing students.
 
-### 4. `com.qsp.student_springboot.service`
-Contains the `StudentService` class which handles the business logic and communicates with the DAO layer.
+### `com.qsp.student_springboot.service`
+Contains the `StudentService` class handling business logic and communicating with the DAO layer.
 
-### 5. `com.qsp.student_springboot.dao`
-Contains the `StudentDao` class which interacts with the database using Spring Data JPA repository methods.
+### `com.qsp.student_springboot.dao`
+Contains the `StudentDao` class interacting with the database using Spring Data JPA repository methods.
 
-### 6. `com.qsp.student_springboot.repo`
-Contains the `StudentRepo` interface which extends `JpaRepository` to provide CRUD operations and custom query methods.
+### `com.qsp.student_springboot.repo`
+Contains the `StudentRepo` interface extending `JpaRepository` to provide CRUD operations and custom query methods.
 
 ## Endpoints
 
